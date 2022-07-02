@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div class="main-block">
+      <form action="/">
+        <div class="title">
+          <h2>QUIZ 2</h2>
+        </div>
+        <div class="info">
+            <label>First name:</label>
+         <h4>@ViewBag.Message</h4><br />
+          <label>Last  name:</label><h4>@ViewBag.message2</h4><br/>
+          
+          <label>Email:
+          </label><input type="text" name="name" ><br />
+           <label>phone #:</label><input type="text" name="name" placeholder="Phone number"><br />
+          <label>password</label> <input type="password" name="name" placeholder="Password"><br/>
+          <label>Gender:</label>
+           <input type="radio" id="Male" name="fav_language" value="Male">
+           <label for="Male">Male</label><br/>
+           <input type="radio" id="Female" name="fav_language" value="Female">
+           <label for="Female">Female</label><br/>
+          <select>
+            <option value="course-type" selected>Customer Department</option>
+            <option value="sALE">Sales</option>
+            <option value="IT">IT</option>
+           </form>
+          </select>
+           <button type="submit" href="/">Submit</button>
+        </div>
+       
